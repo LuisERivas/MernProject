@@ -11,6 +11,7 @@ const connectDB = async () => {
   // try to connect to server
   try {
     await mongoose.connect(db, {
+      // fixes because of errors suggested by server
       useNewUrlParser: true,
       useUnifiedTopology: true
     })
