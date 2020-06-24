@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://aibsbackend:aibsbackend@clinic1-sxp6y.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
