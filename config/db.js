@@ -13,7 +13,8 @@ const connectDB = async () => {
     await mongoose.connect(db, {
       // fixes because of errors suggested by server
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
+      useCreateIndex: true
     })
     console.log('MongoDB Connected to sever bro')
     // if it cant connect to the server
