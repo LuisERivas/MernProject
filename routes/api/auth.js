@@ -13,7 +13,7 @@ const jwt = require('jsonwebtoken')
 const config = require('config')
 
 // used for checking to see if inputed stuff is correct
-const { check, validationResult } = require('express-validator/check')
+const { check, validationResult } = require('express-validator')
 // Bcrypt dependency
 const bcrypt = require('bcryptjs')
 
